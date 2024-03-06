@@ -14,7 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "Big data.md",
-                "mode": "source",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6bc6e4fe4c66ff74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e0ffa041b72c3d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Big data.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "caac75fc9ee849be",
@@ -134,7 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d77f772108c7d6ee",
+  "active": "c3c82e8f08c041e3",
   "lastOpenFiles": [
     "Pasted image 20240305200812.png",
     "Pasted image 20240305155240.png",

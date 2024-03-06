@@ -149,3 +149,20 @@ it is important to match the speed of the drives to the processing power of the 
 					- it allows inconsistency to occur ..eventually consistency
 		Sharding versus replication - using them both
 			![[Pasted image 20240305200812.png]]
+	6. CAP
+		- Consistency- a read is the same, most recently write...
+		- Availability : a read/write request will always be acknowledged
+		- Partition tolerance - the database system can tolerate communication outages that split the cluster into multiple silos and can still service read/write requests
+	- A distributed database system can only provide two of the three properties
+	- CAP is usually choosing c+p or a+p
+
+
+
+	7. BASE
+		- basically available 
+		- soft state - a database may be in an inconsistent state when data is read but the results may change when the same data is requested again
+		- eventual consistency -  the database only attains consistency once the changes have been propagated to all nodes
+		BASE emphasizes availability over immediate consistency, it is not useful for transactional systems where lack of consistency is a concern
+		ACID ensures immediate consistency at the expense of availability due to record locking
+			
+	- 
