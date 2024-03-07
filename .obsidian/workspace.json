@@ -18,26 +18,21 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "6bc6e4fe4c66ff74",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "1e0ffa041b72c3d4",
+            "id": "7ed320c6aa423ae5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Big data.md",
-                "mode": "preview",
+                "file": "Devops.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Big data.md",
+                "file": "Devops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Big data.md",
+                "file": "Devops.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Big data.md"
+                "file": "Devops.md"
               }
             }
           }
@@ -164,12 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3c82e8f08c041e3",
+  "active": "7ed320c6aa423ae5",
   "lastOpenFiles": [
+    "Pasted image 20240306223509.png",
+    "Big data.md",
+    "Devops.md",
     "Pasted image 20240305200812.png",
     "Pasted image 20240305155240.png",
     "README.md",
-    "Pasted image 20240305141337.png",
-    "Big data.md"
+    "Pasted image 20240305141337.png"
   ]
 }
