@@ -151,7 +151,7 @@ Note: revert will not remove files that are pushed remotely.
 
 **Revert** will undo history by adding a commit that reverses the changes. This is remote repo friendly.
 
-## Merge Conflicts
+### Merge Conflicts
 
 
 Git cannot merge code that has the **same line** of code changed in two **different branches**. This requires **manual intervention** and probably collaboration with the developer who made the other changes.
@@ -174,3 +174,89 @@ Never leave a merge or rebase in an unfinished state!
 
 - For merge, you can abort it with: `git merge --abort`
 - For rebase, you can abort it with: `git rebase --abort`
+
+
+## DevOps - 3 
+### Agile Planning
+
+Agile and Scrum
+
+**Scrum** is the most popular Agile development **framework**.
+
+- **Agile** is a PHILOSOPHY for doing work, not prescriptive.
+- **Scrum** is a METHODOLOGY for doing work that adds PROCESS to Agile thinking
+
+
+### Organization of Scrum Teams
+- Small team (7 ± 2)
+- Dedicated
+- Co-located
+- Cross-functional
+- Self managing
+
+### Bad Formulas Leading to Failure
+
+- Product Manager becomes Product Owner
+- Project Manager becomes Scrum Master
+- Developers become Scrum Team
+
+### Agile Tenets
+
+Agile takes ideas from Lean Manufacturing and Extreme Programming (XP)
+
+- Working in Small Batches
+- Creating Minimum Viable Products (MVP)
+- Using Behavior Driven Design (BDD) to make sure that you are building the right
+- Practicing Test Driven Development (TDD) to make sure that you are building the thing right
+- Pair Programming to improve code quality and knowledge saturation
+    
+
+### Minimum Viable Product
+
+- MVP is NOT the result of "Phase 1" of a project
+- It IS the cheapest/easiest thing you can build to start testing your **value hypothesis** and **learning**
+- The former focuses on delivery, while the latter focuses on learning
+- At the end of each MVP you decide whether to pivot or persevere
+
+
+### Actionable Metric Examples
+
+- Reduce time-to-market for new features.
+- Increase overall availability of the product.
+- Reduce the time it takes to deploy a software release.
+- Increase the percentage of defects detected in testing before production release.
+- Make more efficient use of hardware infrastructure.
+- Provide performance and user feedback to the product manager in a more timely manner.
+
+![[Pasted image 20240307224911.png]]
+![[Pasted image 20240307224933.png]]
+### Grooming the Backlog
+
+- Make sure that all Issues are groomed and stories are complete
+- Keep the Backlog ranked by priority so that the important Issues are always on top: The priority is determined by the "**So that**" benefit statement
+- Size the Issues if possible or leave to Sprint Planning
+
+
+### Hypothesis Driven Development
+
+Hypotheses pair a statement that asserts or predicts value with a testable condition that can be measured.
+
+The typical form is as follows  : 
+
+`we believe that function
+`will lead to outcome`
+`and this will be proven when <measureable condition>`
+
+
+### Story Driven Development
+
+- User Stories document a persona requesting a function to achieve a goal
+- The typical form is as follows:
+
+`As a <some role>`
+
+`I need <some function>`
+
+`So that <I get some benefit>
+
+- User Stories can be entered into GitHub as **Issues**
