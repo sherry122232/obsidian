@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "cac740fa24720c77",
+        "id": "0deb8634521bb5e6",
         "type": "tabs",
         "children": [
           {
-            "id": "b525c1f76c484f68",
+            "id": "bb13612c0b3f78e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops.md",
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8262c6ed2afd59a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40be777283414aa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops.md",
+                "file": "Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Devops.md",
+                "file": "Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops.md"
+                "file": "Untitled 1.md"
               }
             }
           }
@@ -146,17 +171,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b525c1f76c484f68",
+  "active": "c3c82e8f08c041e3",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Untitled 1.md",
+    "Devops.md",
+    "Pasted image 20240308112606.png",
+    "System Design.md",
+    "Big data.md",
+    "Pasted image 20240308110852.png",
+    "Pasted image 20240308110842.png",
+    "Pasted image 20240308104405.png",
+    "Pasted image 20240308103029.png",
+    "Pasted image 20240308102638.png",
+    "Pasted image 20240308102619.png",
+    "Untitled",
     "Pasted image 20240307224933.png",
     "Pasted image 20240307224925.png",
     "Pasted image 20240307224911.png",
-    "Big data.md",
-    "Devops.md",
-    "Pasted image 20240306223509.png",
-    "Pasted image 20240305200812.png",
-    "Pasted image 20240305155240.png",
-    "README.md",
-    "Pasted image 20240305141337.png"
+    "README.md"
   ]
 }
