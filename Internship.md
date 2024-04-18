@@ -1,3 +1,4 @@
+## project component
 ```
 import { Component, OnInit, NgZone, inject } from '@angular/core';
 import { Functions, httpsCallable } from '@angular/fire/functions';
@@ -123,7 +124,7 @@ export class ProjectsComponent implements OnInit {
 
 
 
-## projects
+## projects service
 ```
 
 import { inject, Injectable } from '@angular/core';
@@ -262,3 +263,6 @@ export class ProjectService {
 }
 ```
 
+## 4.12 week
+sample list
+search area
