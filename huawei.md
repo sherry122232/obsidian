@@ -192,6 +192,382 @@ d+ 表示至少一个数字
 ![[Pasted image 20240418011608.png]]
 ### OOP
 
+```
+class 
+特征（属性attribute）
+功能（方法method）
+
+// 做一道菜，红烧排骨
+// 类：菜，对象：排骨
+
+// 创建对象的语法
+// new 类名（）;
+```
+
+```
+package chapter04;  
+  
+public class Java01_Object {  
+    public static void main(String[] args) {  
+        // TODO OOD  
+        //todo 1. declare  
+        //todo 2. create object  
+        //todo 3. declasre attribute  
+        // 变量类型 变量名称 = 变量值  
+        // 属性类型 属性名称 = 属性值  
+  
+        // 引用数据类型  
+  
+        // todo 4: 声明方法  
+        Cooking c = new Cooking();  
+        c.name = "Beef stew";  
+        c.food = "Beef";  
+        // todo 5: execute  
+        c.execute();  
+    }  
+    }  
+    class Cooking {  
+//    特征  
+        // 名字  
+        String name;  
+        String type = "stew";  
+        String food;  
+        String relish = "soy";  
+// ToDo： execute        void execute() {  
+            System.out.println("start");  
+        }  
+    }
+```
+
+![[Pasted image 20240418235021.png]]
+![[Pasted image 20240418235254.png]]
+
+#### static
+```
+package chapter04;  
+  
+public class Java02_Object {  
+    public static void main(String[] args){  
+        // 和类相关的属性成为静态属性  
+        //和类相关的方法 - 静态属性  
+        Bird.fly();  
+        System.out.println(Bird.type);  
+    }  
+  
+    class Bird {  
+        static String type = "bird";  
+        static void fly() {  
+            System.out.println("flying");  
+        }  
+    }  
+}
+```
+
+注意事项：
+元空间 （方法区） - 类的信息 User
+栈 -（方法，变量）User user
+堆 - 对象 User
+
+![[Pasted image 20240419090035.png]]
+
+![[Pasted image 20240419090546.png]]
+
+```
+代码块，是在构造对象之前执行的
+User11 user = new User11("zhangwen") // 构造对象
+user.test();
+
+```
+#### inheritance
+OOP三个特征：继承，封装，多态
+类存在父子关系，子类可以直接获取父类的成员属性和方法
+单继承，一个父类可以多子类，但一个子类只有一个父类
+```
+package chapter04;  
+  
+public class Java04_inheritance {  
+    public static void main(String[] args) {  
+        // TODO 面向对象 - 继承 extends        Child c = new Child();  
+        System.out.println(c.name);  
+        c.test();  
+    }  
+}  
+  
+class Parent {  
+    String name = "zhangwen";  
+  
+    void test() {  
+        System.out.println("test");  
+    }  
+}  
+  
+class Child extends Parent {  
+  
+}
+```
+
+// 构造方法 
+```
+package chapter04;  
+  
+public class Java04_inheritance {  
+    public static void main(String[] args) {  
+        // TODO 面向对象 - 继承 extends        
+	    // 构造方法
+	    // 父类对象是在子类对象创建前创建完成，创建子类对象前，会调用父类的构造方法完成父类的创建
+        Child c1 = new Child();  
+        Child c2 = new Child();  
+        Child c3 = new Child();  
+
+    }  
+}  
+  
+class Parent {  
+    String name = "zhangwen";  
+	Parent() {
+		System.out.println("parent");  
+	} 
+}  
+  
+class Child extends Parent {  
+  Child() {
+		System.out.println("child");  
+	}
+}
+
+// 返回三个parent和三个child
+```
+
+
+// 默认情况下，子类对象构建时候，会默认调用父类的构造方法，使用的super的方式，
+如果父类提供构造方法，那么JVM不会提供默认的构造方法，子类应该显示调用super来创建父类对象
+```
+class Parent {  
+    String username;
+	Parent(String name) {
+		username = name;
+		System.out.println("parent");  
+	} 
+}  
+  
+class Child extends Parent {  
+  Child() {
+	  super("zhangwen");
+	  System.out.println("child");  
+	}
+}
+```
+
+#### 多态
+一个对象在不同场景下表现出来的不同的状态
+
+一个对象的可以使用的功能取决引用变量的类型。
+
+```
+
+public static void main(String[] args){
+	Person p = new Person();
+	Person p1 = new Boy();
+	p1.testPerson();
+	// p1.testBoy(); //这样是不对的，多态语法实际是对对象的使用场景进行了约束。
+
+	Person p2 = new Girl();
+	Boy boy = new Boy();
+	boy.testBoy(); // 这样是可以的
+}
+class Person {
+	void testPerson(){
+	  System.out.println("person");  
+	}
+}
+class Boy extends Person {
+	void testBoy(){
+		  System.out.println("boy");  
+		}
+
+}
+
+class Girl extends Person {
+	void testGirl(){
+	  System.out.println("girl");  
+	}
+}
+```
+
+#### 方法重载
+
+// 一个类中，不能重复声明相同的方法，也不能声明相同的属性
+// 相同的方法指的是 方法名参数列表相同，和返回值类型无关。
+// 如果方法名字，相同，但是参数列表（个数，顺序，类型）不同，是不同的方法。
+
+
+%% 构造方法也可以重载 %%
+```
+public static void main(String[] args){
+	
+}
+class User14 {
+ // 构造方法的重载
+ User14() {
+ 
+ }
+  User14(String namne) {
+ 
+ }
+	void login(String name, String password){
+	  System.out.println("账号，密码登录");  
+	}
+	void login(int tel){
+	  System.out.println("手机登录");  
+	}
+}
+```
+#### 方法重写
+![[Pasted image 20240420005635.png]]
+![[Pasted image 20240420005728.png]]
+![[Pasted image 20240420010043.png]]
+
+#### 访问权限
+
+Java只能有一个公共类，而且必须和文件名相同
+main方法： 公共的，因为JVM可以任意调用，不用考虑权限问题
+
+private: 私有，同一个类可以使用
+default: 默当不设定任何权限的时候，JVM会提供包权限。
+protected: 子类可以访问。
+public： 公共的
+```
+public static void main(String[] args){
+	User18 user = new User18();
+	sout(user.name) // 这样不行
+	sout(user.username) // 这样不行
+}
+
+class User18 {
+private String name;
+public String username;
+	void test() {
+	sout(name);
+	}
+}
+```
+
+#### 内部类：
+```
+// java 不允许外部类使用private对象
+
+// 内部类，就是类中声明的类
+
+// 因为内部类可以看作外部类的属性，需要构建外部类对象才可以使用。
+
+public class Java_object {
+	public static void main(String[] args){
+		OuterClass outer = new OuterClass();
+		OuterClass.InnerClass innerClass = outer.new InnerClass();
+	}
+}
+
+class OuterClass {
+	public class innerClass{
+	}
+}
+
+
+```
+
+#### final
+
+// java 提供了一种语法，可以在数据初始化后不被修改，final可以修饰变量，变量的值一旦初始化
+无法修改
+// 一般final修饰的变量称之为常量
+// final 可以修饰属性，那么JVM无法自动进行初始化，需要自己进行初始化，属性值不能发生变化
+// final可以修饰方法，这个方法不能赋予子类重写
+// final 不能修饰构造方法
+==// final 可以修饰类，这样就不能有子类==
+// 可以修饰方法的参数，一旦修饰，无法修改
+```
+public class Java_object {
+
+	public static void main(String[] args){
+		String name = "zhangsan";
+		User20 user = new User20("wang");
+			// 不行
+			user.name = "zhangsan";
+			System.out.println(user.name); // zhangsan
+			
+			user.name = "zhangli";
+			System.out.println(user.name); // zhangli
+		
+	}
+}
+
+（如果加了final）class User20 {
+	public final String name;
+	
+	public User20(String name) { //构造方法
+		this.name = name;
+	}
+	public final void test() {
+	
+	}
+}
+
+// 加了final 这一段就不行。
+class Child20 extends User20 {
+	public void test() { // 不行
+	}
+}
+```
+
+#### abstract 抽象
+
+抽象 - abstract
+抽象类: 不完整的类，就是抽象类
+抽象方法 - 只有声明，没有实现的方法。
+抽象类无法构建对象。
+
+分析问题：对象 => 类，从具体到抽象。
+写代码：先声明类，再创建对象。从抽象到具体。
+
+// 如果一个类含有抽象方法，那么这个类是抽象类
+// 如果一个类是抽象类，它方法不一定是抽象方法
+
+// 抽象类无法构建对象，但是可以通过子类简介构建对象。
+==final 不能和abstract 一起使用。==
+
+```
+public class Java_object {
+	public static void main(String[] args){
+		Chinese21 c = new Chinese21();
+		
+		
+	}
+}
+abstract class Person {
+	public abstract void eat(); // 如果抽象类含有抽象方法，子类继承，需要重写抽象方法，补充完整
+	public void test() {
+		
+	}
+}
+
+class Chinese21 extends Person {
+	public void eat() {
+	}
+}
+```
+
+#### interface 接口
+```
+public class Java_object {
+	public static void main(String[] args){
+		// 面向对象 - interface
+		
+		
+	}
+}
+
+```
+
 ## 程序员的一天
 1、需求串讲
 2、需求分析
@@ -200,3 +576,9 @@ d+ 表示至少一个数字
 	分解问题-模式识别-抽象化-算法
 4、代码提交
 ![[Pasted image 20240418012536.png]]
+5、CI/CD
+6、代码检视
+show case - design - code review
+7、软件重构和维护
+![[Pasted image 20240418013422.png]]
+![[Pasted image 20240418013428.png]]

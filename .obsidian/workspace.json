@@ -47,6 +47,16 @@
             "id": "bd045dbfd3f1db17",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "PNG/Pasted image 20240413222321.png"
+              }
+            }
+          },
+          {
+            "id": "1d2eb26180bca50a",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "huawei.md",
@@ -56,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -183,24 +193,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd045dbfd3f1db17",
+  "active": "1d2eb26180bca50a",
   "lastOpenFiles": [
-    "Pasted image 20240418012536.png",
-    "Pasted image 20240418012134.png",
-    "Pasted image 20240418011608.png",
-    "Pasted image 20240418011227.png",
-    "Pasted image 20240418010845.png",
-    "Pasted image 20240418010638.png",
-    "Pasted image 20240418010106.png",
-    "Pasted image 20240418010050.png",
-    "Pasted image 20240418005951.png",
-    "Pasted image 20240418005749.png",
-    "Pasted image 20240418005732.png",
+    "Pasted image 20240420010043.png",
+    "Pasted image 20240420005728.png",
+    "Pasted image 20240420005635.png",
+    "Devops.md",
     "Internship.md",
+    "Untitled.md",
     "huawei.md",
     "README.md",
-    "Untitled.md",
-    "Devops.md",
+    "PNG/Pasted image 20240417230058.png",
+    "PNG/Pasted image 20240413222321.png",
+    "PNG/Pasted image 20240419090546.png",
+    "PNG/Pasted image 20240419090035.png",
+    "PNG/Pasted image 20240418235254.png",
+    "PNG/Pasted image 20240418235021.png",
+    "PNG/Pasted image 20240418013428.png",
+    "PNG/Pasted image 20240418013422.png",
     "PNG",
     "Big data.md",
     "System Design.md"
