@@ -119,13 +119,41 @@ git reflog 可以看看之前有什么改动 没有提交
 ![[Pasted image 20240413223023.png]]
 
 ## SQL
+查询数据的限制和排序
+order by name, age DESC 先name升序，再age降序
 
+#### 单行函数
+##### 字符串
+concat（”“,""）
+substr('',1,5) 取子串
+length
+instr
+![[Pasted image 20240420182128.png]]
+##### 数字：
+![[Pasted image 20240420182239.png]]
+##### date：
+![[Pasted image 20240420182248.png]]
+##### 转换：
+![[Pasted image 20240420182340.png]]
+![[Pasted image 20240420182352.png]]
+![[Pasted image 20240420182436.png]]
+![[Pasted image 20240420182446.png]]
+![[Pasted image 20240420182521.png]]
+
+#### 分组函数
+```
+avg
+sum
+count
+max
+min
+```
 
 ## Linux
 
 
 ## Java
-### Javs基本数据类型及应用
+### Java基本数据类型及应用
 primitive types: 
 	数值 整数，浮点
 	字符型 char
@@ -243,13 +271,15 @@ public class Java01_Object {
 ![[Pasted image 20240418235254.png]]
 
 #### static
+
+ ==// 和类相关的属性成为静态属性==  
+==//和类相关的方法 - 静态属性==  
 ```
 package chapter04;  
   
 public class Java02_Object {  
     public static void main(String[] args){  
-        // 和类相关的属性成为静态属性  
-        //和类相关的方法 - 静态属性  
+       
         Bird.fly();  
         System.out.println(Bird.type);  
     }  
@@ -557,15 +587,64 @@ class Chinese21 extends Person {
 ```
 
 #### interface 接口
+
+接口，可以理解为规则
+基本语法:
+interface 接口名称 { 规则属性， 规则的行为 }
+接口是抽象的。
+规则的属性必须是固定值，并且不能修改
+属性和行为的访问权限必须为公共的
+属性应该是静态的。意思是跟对象的无关，是跟类相关的。
+行为是抽象的
+接口和类是两个层面的东西
+类的对象需要遵循接口，意思是 实现，类需要实现接口，而且可以实现多个接口。
+
 ```
 public class Java_object {
 	public static void main(String[] args){
 		// 面向对象 - interface
 		
-		
+		Computer c = new Computer();
+		Light light = new light();
+		c.useb1 = light;
+		c.powerSupply();
+		Light light2 = new light();
+		c.useb2 = light2;
+		c.powerSupply();
 	}
 }
 
+interface USBInterface {
+
+}
+
+interface USBSupply extends USBInterface{
+	public void powerSupply(); //抽象，因为每个实现是不一样的。
+}
+
+interface USBReceive extends USBInterface{
+	public void powerReceive();
+}
+
+class Computer implements USBSupply {
+		public USBReceive usb1;
+		public USBReceive usb2;
+		
+		public void powerSupply() {
+			usb1.powerReceive();
+			usb2.powerReceive();
+		}
+		public void powerReceive() {
+		}
+}
+
+class Light implements USBSupply {
+		
+		public void powerReceive() {
+			
+		}
+
+}
 ```
 
 ## 程序员的一天
