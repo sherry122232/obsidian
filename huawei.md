@@ -147,8 +147,86 @@ sum
 count
 max
 min
+
+// groupby
+// having need to be used with groupby
+// 分组函数可以嵌套
+
+```
+![[Pasted image 20240420185137.png]]
+
+#### 多表查询
+1. 种类
+		- 自连接
+		- 等值连接
+		- 外连接
+			- 左外连接 
+			- 右外连接
+			- 全连接
+#### sql optimization
+- avoid using * , 使用列名
+- 使用别名
+- where 子句中的链接顺序，尽量将能缩小范围的放在右边
+- 使用>= instead of >
+- using truncate instead of delete
+	- delete 没有commit操作，回滚中会有删除操作回复的信息
+	- truncate 就没有以上
+- 尽量多use commit
+- 不要在索引列使用函数
+	- 例如 where sal*2>20 不好，应该where sal > 20/2
+
+
+#### 子查询介绍 - 嵌套查询
+在查询时基于位置是应考虑使用子查询
+子查询必须包含在括号类
+将子查询放在右侧
+单行子查询用单行运算符，多行用多行运算符
+
+种类
+	- 单行子查询： 结果只有一行的。> < = >= <= <>
+	- 多行子查询:  in, any, all
+	- 空值子查询
+	```
+	```
+```
+select emp, ename, jpb, sal
+from emp
+where empno in ()
 ```
 
+#### 数据操作语句 - DML
+##### insert 
+	- ![[Pasted image 20240420191414.png]]
+- ![[Pasted image 20240420191514.png]]
+- ![[Pasted image 20240420191520.png]]
+##### update
+![[Pasted image 20240420191644.png]]
+
+##### delete 
+delete from table where ...
+
+#### 表结构的操作语句
+![[Pasted image 20240420194817.png]]
+![[Pasted image 20240420194830.png]]
+
+![[Pasted image 20240420195014.png]]
+
+![[Pasted image 20240420195842.png]]
+![[Pasted image 20240420195847.png]]
+![[Pasted image 20240420200027.png]]
+![[Pasted image 20240420200125.png]]![[Pasted image 20240420200148.png]]
+#### 事务操作语句
+
+事务开始 - 第一个DML 语句开始
+事务结束 - 发出commit 或者 rollback 
+		或者DDL或者DCL语句执行 （隐式提交
+		用户退出iSQL*PLus
+		系统崩溃
+
+控制事务的命令
+- commit 命令
+- rollback命令，撤销
+- savepoint/rollback to savepoint
 ## Linux
 
 

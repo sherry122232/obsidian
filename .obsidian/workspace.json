@@ -59,14 +59,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "huawei.md",
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08142e0042d63393",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview prepare.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -132,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "huawei.md",
+                "file": "Interview prepare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "huawei.md",
+                "file": "Interview prepare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "huawei.md"
+                "file": "Interview prepare.md"
               }
             }
           }
@@ -193,24 +205,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d2eb26180bca50a",
+  "active": "08142e0042d63393",
   "lastOpenFiles": [
-    "Pasted image 20240420182521.png",
-    "Pasted image 20240420182446.png",
-    "Pasted image 20240420182436.png",
-    "Pasted image 20240420182352.png",
-    "Pasted image 20240420182340.png",
-    "Pasted image 20240420182248.png",
-    "Pasted image 20240420182239.png",
-    "Pasted image 20240420182128.png",
-    "Pasted image 20240420010043.png",
-    "Pasted image 20240420005728.png",
-    "Pasted image 20240420005635.png",
-    "Devops.md",
-    "Internship.md",
     "Untitled.md",
-    "huawei.md",
+    "Interview prepare.md",
     "README.md",
+    "Internship.md",
+    "PNG/Pasted image 20240420005635.png",
+    "huawei.md",
+    "PNG/Pasted image 20240420200148.png",
+    "PNG/Pasted image 20240420200125.png",
+    "PNG/Pasted image 20240420200027.png",
+    "PNG/Pasted image 20240420195847.png",
+    "PNG/Pasted image 20240420195842.png",
+    "PNG/Pasted image 20240420195014.png",
+    "PNG/Pasted image 20240420194830.png",
+    "PNG/Pasted image 20240420194817.png",
+    "PNG/Pasted image 20240420191644.png",
+    "Devops.md",
     "PNG",
     "Big data.md",
     "System Design.md"
