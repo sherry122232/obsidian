@@ -229,6 +229,187 @@ delete from table where ...
 - savepoint/rollback to savepoint
 ## Linux
 
+### linux intro
+![[Pasted image 20240421002932.png]]
+
+常见操作系统：dos,windows, unix, linux, mac os, android, ios
+linux 是开源的，linux占用内存小，面向开发者。windows是面向消费者。
+linux是一套免费试用和自由传播的类unix操作系统。可以管理计算机的所有硬件资源，进行cpu调度。
+
+redhat,centos, suse: 发行版os，侧重网络服务 管理
+debian ubuntu 红旗，社区类。侧重用户体验。
+
+#### linux结构
+- 应用程序
+- shell 程序： bourne shell(sh), C shell 和 korn shell, bash shell(/bin/bash)
+- linux 内核kernel
+- 硬件系
+-![[Pasted image 20240421003332.png]]
+
+#### 特点
+![[Pasted image 20240421003403.png]]
+#常用远程接入工具: xshell xftp
+#### 目录结构
+![[Pasted image 20240421003635.png]]
+### linux 用户管理
+![[Pasted image 20240429133144.png]]
+
+1.2 etc/password 结构
+1.3 文件结构
+![[Pasted image 20240429133301.png]]
+![[Pasted image 20240429133340.png]]
+![[Pasted image 20240429133415.png]]
+
+![[Pasted image 20240429133421.png]]
+
+![[Pasted image 20240429133441.png]]
+
+![[Pasted image 20240429133620.png]]
+![[Pasted image 20240429133843.png]]
+![[Pasted image 20240429133905.png]]
+![[Pasted image 20240429133915.png]]
+![[Pasted image 20240429133922.png]]
+![[Pasted image 20240429133936.png]]
+
+#### 文件和目录管理
+
+绝对路径和相对路径。
+
+pwd: 显示当前工作目录
+cd: 更改工作目录
+
+![[Pasted image 20240430232644.png]]
+
+![[Pasted image 20240430232929.png]]
+![[Pasted image 20240501164639.png]]
+
+2.3.2 修改群组
+![[Pasted image 20240501164652.png]]
+
+2.3.3 修改权限
+![[Pasted image 20240501164744.png]]
+
+#### 新建文件 touch ...
+#### 新增目录 mkdir
+![[Pasted image 20240501164846.png]]
+#### 复制文件或者目录
+![[Pasted image 20240501164917.png]]
+![[Pasted image 20240501165025.png]]
+
+#### 复制文件或者目录
+![[Pasted image 20240501165032.png]]
+#### 删除 rmdir 
+![[Pasted image 20240501165116.png]]
+![[Pasted image 20240501165144.png]]
+
+#### 3.5 查找文件或者目录路径
+![[Pasted image 20240501165343.png]]
+#### 3.6 查看文件内容
+![[Pasted image 20240501165324.png]]
+3.7 查找
+![[Pasted image 20240501165753.png]]
+#### 管道
+![[Pasted image 20240501165840.png]]
+#### 输出重定向
+![[Pasted image 20240501165951.png]]
+### vim
+
+#### 三种模式
+![[Pasted image 20240501172016.png]]
+#### 一般模式
+![[Pasted image 20240501172054.png]]
+![[Pasted image 20240501172127.png]]
+![[Pasted image 20240501172216.png]]
+![[Pasted image 20240501172300.png]]
+![[Pasted image 20240501172402.png]]
+
+### linux文件系统
+#### 简介
+![[Pasted image 20240501174033.png]]
+#### 分类
+![[Pasted image 20240501174122.png]]
+非索引文件系统，只有block存在，需要一个一个block的读，效率低。
+索引式![[Pasted image 20240501174302.png]]
+#### 目录树的读取
+![[Pasted image 20240501174349.png]]
+### linux的磁盘分区介绍
+2.1 分区类型
+![[Pasted image 20240501174458.png]]
+![[Pasted image 20240501180425.png]]
+
+![[Pasted image 20240501183336.png]]
+
+![[Pasted image 20240501183343.png]]
+![[Pasted image 20240501183353.png]]
+![[Pasted image 20240501183409.png]]
+![[Pasted image 20240501183420.png]]
+![[Pasted image 20240501183426.png]]
+![[Pasted image 20240501183439.png]]
+![[Pasted image 20240501183501.png]]
+
+![[Pasted image 20240501182315.png]]
+![[Pasted image 20240501182320.png]]
+
+### linux 网络管理
+![[Pasted image 20240501183626.png]]
+![[Pasted image 20240501183747.png]]
+![[Pasted image 20240501183904.png]]
+![[Pasted image 20240501183935.png]]
+
+![[Pasted image 20240501190143.png]]
+![[Pasted image 20240501190158.png]]
+
+![[Pasted image 20240501190206.png]]
+![[Pasted image 20240501190234.png]]
+![[Pasted image 20240501191452.png]]
+![[Pasted image 20240501191500.png]]
+
+![[Pasted image 20240501191519.png]]
+
+### linux 进程管理和服务管理
+![[Pasted image 20240501192643.png]]
+![[Pasted image 20240501192725.png]]
+
+![[Pasted image 20240501192732.png]]
+![[Pasted image 20240501192747.png]]
+![[Pasted image 20240501203613.png]]
+![[Pasted image 20240501203625.png]]
+### 任务管理
+![[Pasted image 20240501203643.png]]
+![[Pasted image 20240501203652.png]]
+![[Pasted image 20240501203659.png]]
+
+![[Pasted image 20240501203709.png]]
+![[Pasted image 20240501203724.png]]
+![[Pasted image 20240501203729.png]]
+![[Pasted image 20240501203738.png]]
+![[Pasted image 20240501203748.png]]
+![[Pasted image 20240501203801.png]]
+### linux 系统监控
+![[Pasted image 20240501203838.png]]
+![[Pasted image 20240501203846.png]]
+![[Pasted image 20240501203916.png]]
+![[Pasted image 20240501203934.png]]
+![[Pasted image 20240501203943.png]]
+![[Pasted image 20240501203950.png]]
+![[Pasted image 20240501204416.png]]
+![[Pasted image 20240501204434.png]]
+
+![[Pasted image 20240501204444.png]]
+
+![[Pasted image 20240501204455.png]]
+![[Pasted image 20240501204511.png]]
+### 查看登录信息
+![[Pasted image 20240501204541.png]]
+![[Pasted image 20240501204547.png]]![[Pasted image 20240501204557.png]]
+![[Pasted image 20240501204609.png]]
+### 温故
+![[Pasted image 20240501205043.png]]
+![[Pasted image 20240501205051.png]]
+
+![[Pasted image 20240501205506.png]]
+![[Pasted image 20240501205545.png]]
+![[Pasted image 20240501205927.png]]
 
 ## Java
 ### Java基本数据类型及应用
@@ -296,6 +477,10 @@ d+ 表示至少一个数字
 净化：就是把匹配标志可能替换成安全字符
 
 ![[Pasted image 20240418011608.png]]
+
+### 数据转换
+
+![[Pasted image 20240520171252.png]]
 ### OOP
 
 ```
@@ -739,3 +924,56 @@ show case - design - code review
 7、软件重构和维护
 ![[Pasted image 20240418013422.png]]
 ![[Pasted image 20240418013428.png]]
+
+
+![[Pasted image 20240501214927.png]]
+![[Pasted image 20240501215420.png]]![[Pasted image 20240501215530.png]]
+
+
+## 代码编程规范
+![[Pasted image 20240501223710.png]]
+
+![[Pasted image 20240501224555.png]]
+
+![[Pasted image 20240501224641.png]]
+
+![[Pasted image 20240501225028.png]]
+![[Pasted image 20240501225039.png]]
+![[Pasted image 20240501225049.png]]
+![[Pasted image 20240501225132.png]]
+![[Pasted image 20240501225151.png]]
+
+### 编程实践
+![[Pasted image 20240501225300.png]]
+![[Pasted image 20240501225454.png]]
+
+![[Pasted image 20240501225823.png]]
+![[Pasted image 20240501225842.png]]
+![[Pasted image 20240501225945.png]]
+![[Pasted image 20240501230047.png]]
+![[Pasted image 20240501230059.png]]
+![[Pasted image 20240501230149.png]]
+![[Pasted image 20240501230216.png]]
+
+![[Pasted image 20240501230245.png]]
+![[Pasted image 20240501230259.png]]
+![[Pasted image 20240501230348.png]]
+
+### 编程实践
+![[Pasted image 20240501230512.png]]
+![[Pasted image 20240501230553.png]]
+![[Pasted image 20240501231917.png]]
+
+![[Pasted image 20240501232028.png]]
+![[Pasted image 20240501232141.png]]
+![[Pasted image 20240501232219.png]]
+
+#### 类、接口与面向对象
+![[Pasted image 20240501233027.png]]
+![[Pasted image 20240501233042.png]]
+
+![[Pasted image 20240501233219.png]]
+![[Pasted image 20240501233245.png]]
+### 异常处理
+![[Pasted image 20240501233521.png]]
+![[Pasted image 20240501233605.png]]

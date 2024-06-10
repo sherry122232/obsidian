@@ -4,81 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0deb8634521bb5e6",
+        "id": "6e4b06d11fdee7a8",
         "type": "tabs",
         "children": [
           {
-            "id": "bb13612c0b3f78e0",
+            "id": "88add6d41f073422",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8262c6ed2afd59a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40be777283414aa5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Internship.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd045dbfd3f1db17",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "PNG/Pasted image 20240413222321.png"
-              }
-            }
-          },
-          {
-            "id": "1d2eb26180bca50a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08142e0042d63393",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview prepare.md",
+                "file": "huawei.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview prepare.md",
+                "file": "huawei.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview prepare.md",
+                "file": "huawei.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview prepare.md"
+                "file": "huawei.md"
               }
             }
           }
@@ -205,26 +146,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08142e0042d63393",
+  "active": "88add6d41f073422",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Interview prepare.md",
-    "README.md",
+    "Citadel.md",
     "Internship.md",
-    "PNG/Pasted image 20240420005635.png",
+    "PNG/Pasted image 20240413222321.png",
     "huawei.md",
-    "PNG/Pasted image 20240420200148.png",
-    "PNG/Pasted image 20240420200125.png",
-    "PNG/Pasted image 20240420200027.png",
-    "PNG/Pasted image 20240420195847.png",
-    "PNG/Pasted image 20240420195842.png",
-    "PNG/Pasted image 20240420195014.png",
-    "PNG/Pasted image 20240420194830.png",
-    "PNG/Pasted image 20240420194817.png",
-    "PNG/Pasted image 20240420191644.png",
-    "Devops.md",
-    "PNG",
+    "antra.md",
+    "Pasted image 20240520171252.png",
+    "Pasted image 20240520171250.png",
+    "Pasted image 20240501233605.png",
+    "Pasted image 20240501233521.png",
+    "Pasted image 20240501233245.png",
+    "Pasted image 20240501233219.png",
+    "Pasted image 20240501233042.png",
+    "Pasted image 20240501233027.png",
+    "Pasted image 20240501232219.png",
+    "Typescript.md",
+    "Interview prepare.md",
     "Big data.md",
+    "Devops.md",
+    "README.md",
+    "PNG",
     "System Design.md"
   ]
 }
