@@ -444,6 +444,14 @@ primitive types:
 ![[Pasted image 20240414121058.png]]
 ![[Pasted image 20240414121150.png]]
 ![[Pasted image 20240414121242.png]]
+判断，不要通过浮点类型。
+![[Pasted image 20240616225531.png]]
+![[Pasted image 20240616230057.png]]
+##### 拆装箱
+![[Pasted image 20240616230349.png]]
+![[Pasted image 20240616230722.png]]
+在-128-127范围内的话 用==是对的。用equals是相同的。因为这里都是对象。
+### dsds 
 ### 基本语法
 #### Java 的程序结构
 不同的包组成，包下面有java文件，包括 包声明，import声明，公共类/接口
@@ -457,6 +465,13 @@ primitive types:
 ![[Pasted image 20240418005139.png]]
 
 ### Lamda表达式
+#### 运算符
+![[Pasted image 20240616235728.png]]
+![[Pasted image 20240616235858.png]]
+![[Pasted image 20240617000125.png]]
+ ![[Pasted image 20240617000136.png]]
+ ![[Pasted image 20240617000154.png]]
+ 
 ### IO programming
 ![[Pasted image 20240418005301.png]]
 ![[Pasted image 20240418005732.png]]![[Pasted image 20240418005749.png]]
@@ -481,7 +496,8 @@ d+ 表示至少一个数字
 ### 数据转换
 
 ![[Pasted image 20240520171252.png]]
-### OOP
+
+## OOP
 
 ```
 class 
@@ -910,6 +926,63 @@ class Light implements USBSupply {
 }
 ```
 
+## 安全实践
+![[Pasted image 20240616225811.png]]
+#### 威胁建模
+![[Pasted image 20240616233534.png]]
+![[Pasted image 20240616233738.png]]
+![[Pasted image 20240616233714.png]]
+![[Pasted image 20240616233852.png]]
+![[Pasted image 20240616233917.png]]
+![[Pasted image 20240616234002.png]]
+![[Pasted image 20240616234054.png]]
+![[Pasted image 20240616235535.png]]
+####  clean code
+![[Pasted image 20240617022723.png]]
+![[Pasted image 20240617022752.png]]![[Pasted image 20240617022823.png]]![[Pasted image 20240617022842.png]]![[Pasted image 20240617022850.png]]![[Pasted image 20240617022902.png]]![[Pasted image 20240617022909.png]]![[Pasted image 20240617022926.png]]![[Pasted image 20240617022934.png]]![[Pasted image 20240617022959.png]]![[Pasted image 20240617023006.png]]![[Pasted image 20240617023018.png]]
+
+
+![[Pasted image 20240617015557.png]]
+
+![[Pasted image 20240617015724.png]]
+
+#### 软件重构 refactoring
+在不改变代码外在行为，对代码做出修改，改进程序的内部结构
+![[Pasted image 20240617020740.png]]
+![[Pasted image 20240617021645.png]]
+![[Pasted image 20240617022421.png]]
+
+
+## 测试
+
+#### 单元测试
+![[Pasted image 20240617012519.png]]
+![[Pasted image 20240617012703.png]]
+#### 怎么做unit test
+![[Pasted image 20240617012755.png]]
+![[Pasted image 20240617012813.png]]
+![[Pasted image 20240617013039.png]]
+![[Pasted image 20240617013101.png]]
+![[Pasted image 20240617113020.png]]
+![[Pasted image 20240617113028.png]]
+![[Pasted image 20240617113123.png]]
+
+##### 异常测试
+![[Pasted image 20240617113211.png]]
+![[Pasted image 20240617113244.png]]
+![[Pasted image 20240617113949.png]]![[Pasted image 20240617114003.png]]
+![[Pasted image 20240617114018.png]]
+![[Pasted image 20240617114041.png]]
+
+### unit test principle - first
+fast - 
+![[Pasted image 20240617111552.png]]
+isolated 
+![[Pasted image 20240617111610.png]]
+repeatable 
+self-validating - 必须通过assert运行结果，而不是人工
+timely 及时
+![[Pasted image 20240617111746.png]]
 ## 程序员的一天
 1、需求串讲
 2、需求分析
@@ -943,7 +1016,7 @@ show case - design - code review
 ![[Pasted image 20240501225132.png]]
 ![[Pasted image 20240501225151.png]]
 
-### 编程实践
+## Java编程实践
 ![[Pasted image 20240501225300.png]]
 ![[Pasted image 20240501225454.png]]
 
@@ -977,3 +1050,13 @@ show case - design - code review
 ### 异常处理
 ![[Pasted image 20240501233521.png]]
 ![[Pasted image 20240501233605.png]]
+
+### 敏感异常
+
+![[Pasted image 20240617142247.png]]
+![[Pasted image 20240617142607.png]]
+
+![[Pasted image 20240617142020.png]]
+![[Pasted image 20240617142105.png]]
+
+### 并发与多线程

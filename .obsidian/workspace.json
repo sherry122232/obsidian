@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6e4b06d11fdee7a8",
+        "id": "8b876921b01f28bc",
         "type": "tabs",
         "children": [
           {
-            "id": "88add6d41f073422",
+            "id": "0513e33400bc872c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,22 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "88add6d41f073422",
+  "active": "0513e33400bc872c",
   "lastOpenFiles": [
-    "Internship.md",
+    "Pasted image 20240617142607.png",
+    "Pasted image 20240617142247.png",
+    "Pasted image 20240617142105.png",
+    "Pasted image 20240617142020.png",
+    "Pasted image 20240617114041.png",
+    "Pasted image 20240617114018.png",
+    "Pasted image 20240617114003.png",
+    "Pasted image 20240617113949.png",
+    "Pasted image 20240617113244.png",
+    "Pasted image 20240617113211.png",
+    "Pasted image 20240617113123.png",
     "huawei.md",
+    "Internship.md",
     "Citadel.md",
-    "PNG/Pasted image 20240413222321.png",
     "antra.md",
-    "Pasted image 20240520171252.png",
-    "Pasted image 20240520171250.png",
-    "Pasted image 20240501233605.png",
-    "Pasted image 20240501233521.png",
-    "Pasted image 20240501233245.png",
-    "Pasted image 20240501233219.png",
-    "Pasted image 20240501233042.png",
-    "Pasted image 20240501233027.png",
-    "Pasted image 20240501232219.png",
     "Typescript.md",
     "Interview prepare.md",
     "Big data.md",
