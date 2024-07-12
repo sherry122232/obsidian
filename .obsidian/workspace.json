@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "huawei.md",
+                "file": "Interview prepare.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "huawei.md",
+                "file": "Interview prepare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "huawei.md",
+                "file": "Interview prepare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "huawei.md"
+                "file": "Interview prepare.md"
               }
             }
           }
@@ -134,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 303.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,27 +148,28 @@
   },
   "active": "0513e33400bc872c",
   "lastOpenFiles": [
-    "Pasted image 20240617142607.png",
-    "Pasted image 20240617142247.png",
-    "Pasted image 20240617142105.png",
-    "Pasted image 20240617142020.png",
-    "Pasted image 20240617114041.png",
-    "Pasted image 20240617114018.png",
-    "Pasted image 20240617114003.png",
-    "Pasted image 20240617113949.png",
-    "Pasted image 20240617113244.png",
-    "Pasted image 20240617113211.png",
-    "Pasted image 20240617113123.png",
+    "Pasted image 20240707161926.png",
+    "Pasted image 20240707161743.png",
+    "Pasted image 20240706230724.png",
+    "Pasted image 20240629234938.png",
+    "Pasted image 20240625162603.png",
+    "Pasted image 20240625160832.png",
+    "Interview prepare.pdf",
+    "Pasted image 20240622160153.png",
+    "Pasted image 20240622142918.png",
+    "Pasted image 20240622141353.png",
+    "Pasted image 20240622141332.png",
+    "Pasted image 20240622141315.png",
+    "README.md",
+    "System Design.md",
+    "Interview prepare.md",
+    "Typescript.md",
     "huawei.md",
     "Internship.md",
     "Citadel.md",
     "antra.md",
-    "Typescript.md",
-    "Interview prepare.md",
     "Big data.md",
     "Devops.md",
-    "README.md",
-    "PNG",
-    "System Design.md"
+    "PNG"
   ]
 }
